@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Environment variables / secrets
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PyTorch / Hugging Face cache (optional)
+.cache/
+.huggingface/
+
+# Large downloaded models (if any)
+models/
+
